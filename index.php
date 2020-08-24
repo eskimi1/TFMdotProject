@@ -110,7 +110,7 @@ if (dPgetParam($_POST, 'lostpass', 0)) {
 	exit();
 }
 
-// check if the user is trying to log in test
+// check if the user is trying to log in
 // Note the change to REQUEST instead of POST.  This is so that we can
 // support alternative authentication methods such as the PostNuke
 // and HTTP auth methods now supported.
