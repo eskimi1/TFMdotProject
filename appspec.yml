@@ -3,6 +3,11 @@ os: linux
 files:
   - source: /index.php
     destination: /var/www/dotproject/
+permissions:
+  - object: /var/www/dotproject/
+    owner: root
+    group: root
+    mode: 777
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
