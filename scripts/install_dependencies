@@ -1,4 +1,3 @@
 #!/bin/bash
 yum update -y
-rm -rf /tmp/*.rpm /tmp/*.yml
 
