@@ -1,3 +1,25 @@
 #!/bin/bash
 service httpd start
-mv TFMdotProject  /var/www/dotproject
+mv -f classes  /var/www/dotproject #mover
+mv -f db  /var/www/dotproject #mover
+mv -f files  /var/www/dotproject #mover
+mv -f functons  /var/www/dotproject #mover
+mv -f images  /var/www/dotproject #mover
+mv -f includes  /var/www/dotproject #mover
+mv -f install  /var/www/dotproject #mover
+mv -f js  /var/www/dotproject #mover
+mv -f lib  /var/www/dotproject #mover
+mv -f locales  /var/www/dotproject #mover
+mv -f misc  /var/www/dotproject #mover
+mv -f modules  /var/www/dotproject #mover
+mv -f style /var/www/dotproject #mover
+mv -f .gitignore  /var/www/dotproject #mover
+mv -f base.php  /var/www/dotproject #mover
+mv -f ChangeLog /var/www/dotproject #mover
+mv -f CONTRIBUTING.md  /var/www/dotproject #mover
+mv -f COPYING  /var/www/dotproject #mover
+mv -f fileviewer.php  /var/www/dotproject #mover
+mv -f index.php /var/www/dotproject #mover
+mv -f LICENSE /var/www/dotproject #mover
+mv -f queuescanner.php  /var/www/dotproject #mover
+mv -f README.md  /var/www/dotproject #mover
