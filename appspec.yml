@@ -1,17 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /index.php
-    destination: /var/www/dotproject/
-    - source: /classes
-    destination: /var/www/dotproject/
-    - source: /db
-    destination: /var/www/dotproject/
-    - source: /files
-    destination: /var/www/dotproject/
-    - source: /functions
-    destination: /var/www/dotproject/
-    - source: /images
+  - source: /*
     destination: /var/www/dotproject/
 permissions:
   - object: /var/www/dotproject/
