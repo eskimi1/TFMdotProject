@@ -1,4 +1,4 @@
 #!/bin/bash
 yum update -y
-rpm -ivh /tmp/*.rpm /var/www/dotproject/ --force
+rpm -ivh /var/www/dotproject/ --force
 
