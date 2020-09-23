@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /*
+  - source: /foo
     destination: /var/www/dotproject/
 permissions:
   - object: /var/www/dotproject/
