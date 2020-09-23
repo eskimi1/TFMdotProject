@@ -3,7 +3,6 @@ os: linux
 files:
   - source: /
     destination: /var/www/dotproject/
-    overwrite: yes
 permissions:
   - object: /var/www/dotproject/
     owner: root
