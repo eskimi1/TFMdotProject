@@ -1,3 +1,3 @@
 #!/bin/bash
 service httpd start
-yes | cp -rf classes  /var/www/dotproject #mover
+
